@@ -1,0 +1,53 @@
+body {
+  font-family: system-ui, sans-serif;
+  width: 240px;
+  margin: 8px;
+  background-color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+input {
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #b0aaaa;
+}
+button {
+  padding: 6px;
+  cursor: pointer;
+ 
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+li + li {
+  margin-top: 6px;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FE0000;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+.save{
+    background-color: #FE0000;
+    border-radius: 20px;
+    width: 100px;
+    align-self: center;
+    color: whitesmoke;
+}
+form{
+    margin-top: 10px;
+}

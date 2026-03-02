@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Quick Links</title>
+  </head>
+  <body>
+    <span><img src="icons/48.png" alt="logo">  Quick-Kr</span>
+    <form id="save-form">
+      <input
+        type="url"
+        id="url-input"
+        placeholder="Paste website link"
+        required
+      />
+      <input
+        type="text"
+        id="name-input"
+        placeholder="Custom name"
+      />
+      <button class="save" type="submit">Save</button>
+    </form>
+
+    <ul id="links-list"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>
